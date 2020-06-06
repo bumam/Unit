@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "DINPro-Bold";
+  src: url(fonts/DINPro-Bold.woff);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DINPro-Medium";
+  src: url(fonts/DINPro-Medium.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: "DINPro-Medium";
+}
+
+img {
+  width: 100%;
+}
+
+.white-team {
+  margin-bottom: 90px;
+}
+
+.gray {
+  background-color: #f8f8f8;
+}
+
+.events-top {
+  padding-top: 30px;
+  transform: translate(-70px, 10px);
+}
+
+.blue {
+  background-image: url("../img/bg-blue.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 90px;
+  margin: 0;
+  background-color: #a5e1fe;
+}
+
+.gray_rect {
+  background-color: #dcddde;
+  border-radius: 146.5px;
+  width: 27.5vw;
+  height: 14vw;
+  padding-top: 55px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.heading {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.white-bg {
+  background: linear-gradient(to right, white 60%, transparent 70%);
+  background-size: 100% 86%;
+  background-repeat: no-repeat;
+}
+
+.groupimg {
+  transform: translate(10px, -30px);
+}
+
+.head3-padding {
+  padding-bottom: 30px;
+}
+
+.gray-wapper {
+  margin-bottom: 80px;
+}
+
+.team li,
+.events li {
+  padding: 15px 10px;
+  font-size: 1.5em;
+  list-style: none;
+  padding-left: 50px;
+  color: #909090;
+}
+
+.team li:before,
+.events li:before {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: #6aaceb;
+  border-radius: 50%;
+  transform: translate(-30px, 17px);
+}
+
+.head2 {
+  padding-left: 50px;
+  padding-top: 60px;
+  font-size: 2em;
+}
+
+.head4 {
+  font-size: 2.3em;
+}
+
+.head3 {
+  font-family: "DINPro-Bold";
+  font-size: 2em;
+}
+
+.head1 {
+  font-family: "DINPro-Bold";
+  font-size: 3.5em;
+  padding-top: 50px;
+}
+
+.events li {
+  padding: 0;
+  color: #65707e;
+}
+
+.events-head {
+  font-size: 1.5em;
+  color: #5e747e;
+  font-weight: 500;
+}
+
+.events-wrapper img {
+  width: 140px;
+  margin-bottom: 50px;
+}
+
+.company {
+  padding: 0;
+}
+
+.module-text {
+  color: white;
+  width: 29vw;
+  transform: translate(34vw, 6.5vw);
+  font-size: 15px;
+}
+
+.module-wrapper {
+  background-image: url("../img/window.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 70vw;
+  height: 60vw;
+}
+
+.module-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 1vw;
+}
+
+.module-text p {
+  font-size: 1.5em;
+  opacity: 0.6;
+  margin-bottom: 2vw;
+  width: 70%;
+}
+
+.takeme {
+  font-size: 1.8em;
+  background-color: white;
+  padding: 1vw 1.1vw;
+  border-radius: 12vw;
+  color: #1e00ff;
+  font-weight: bold;
+}
+
+.skip {
+  font-size: 1.4em;
+  opacity: 0.5;
+  color: white;
+  margin-left: 1.5vw;
+}
+
+.skip:hover {
+  opacity: 0.5;
+}
+
+.skip:after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/arrow.png");
+  width: 1vw;
+  height: 1.5vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: translate(1vw, 0.2vw);
+}
+
+.show {
+  font-weight: 500;
+}
+
+.show:hover {
+  opacity: 0.7;
+  color: #6aaceb;
+  text-decoration: none;
+}
+
+.modal-bg {
+  content: "";
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 10;
+}
+
+.modal {
+  width: fit-content;
+  height: fit-content;
+  top: 20%;
+  left: 30%;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1700px) {
+  .module-text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1485px) {
+  .module-text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1285px) {
+  .module-text {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .module-text {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 910px) {
+  .module-text {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 800px) {
+  .module-text {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 690px) {
+  .module-text {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 570px) {
+  .module-text {
+    font-size: 4px;
+  }
+}
+
+@media (max-width: 470px) {
+  .module-text {
+    font-size: 3.2px;
+  }
+}
+
+@media (max-width: 370px) {
+  .module-text {
+    font-size: 2.7px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .events-top {
+    transform: translate(0, 0);
+  }
+}
